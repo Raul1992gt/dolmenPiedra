@@ -90,27 +90,27 @@ export default function Home() {
   const proyectos = [
     {
       title: 'Paredes de Piedra',
-      image: '/images/proyectos/paredes.jpg',
+      image: '/dolmenPiedra/images/proyectos/paredes.jpg',
       description: 'Revestimientos únicos que transforman espacios con la elegancia natural de la piedra.'
     },
     {
       title: 'Suelos Elegantes',
-      image: '/images/proyectos/suelos.jpg',
+      image: '/dolmenPiedra/images/proyectos/suelos.jpg',
       description: 'Pavimentos naturales de alta durabilidad que aportan calidez y sofisticación.'
     },
     {
       title: 'Baños de Lujo',
-      image: '/images/proyectos/banio.jpg',
+      image: '/dolmenPiedra/images/proyectos/banio.jpg',
       description: 'Espacios de relajación únicos donde la piedra natural crea ambientes serenos.'
     },
     {
       title: 'Mesas Artesanales',
-      image: '/images/proyectos/mesas.jpg',
+      image: '/dolmenPiedra/images/proyectos/mesas.jpg',
       description: 'Mobiliario único tallado a mano, donde cada pieza cuenta una historia.'
     },
     {
       title: 'Trabajos a Medida',
-      image: '/images/proyectos/amedida.jpg',
+      image: '/dolmenPiedra/images/proyectos/amedida.jpg',
       description: 'Proyectos personalizados y únicos adaptados a tus necesidades específicas y espacios particulares.'
     }
   ]
@@ -161,7 +161,7 @@ export default function Home() {
         <div className="container">
           <nav className="nav">
             <a href="#inicio" className="logo font-serif">
-              <img src="/images/logo/logo.jpg" alt="Dolmen Piedra" className="logo-img" />
+              <img src="/dolmenPiedra/images/logo/logo.jpg" alt="Dolmen Piedra" className="logo-img" />
               Dolmen Piedra
             </a>
             
@@ -215,7 +215,7 @@ export default function Home() {
         {/* Hero Section */}
         <section id="inicio" className="hero">
           <img 
-            src="/images/home/home.jpg" 
+            src="/dolmenPiedra/images/home/home.jpg" 
             alt="Dolmen Piedra - Maestros en Piedra Natural" 
             className="hero-bg"
           />
@@ -259,13 +259,13 @@ export default function Home() {
                   <li>Materiales de la más alta calidad</li>
                 </ul>
               </div>
-              <div className="reveal-right">
-                <img 
-                  src="/images/nosotros/nosotros.jpg" 
-                  alt="Artesanos de Dolmen Piedra trabajando" 
-                  className="about-img"
-                />
-              </div>
+                             <div className="reveal-right">
+                 <img 
+                   src="/dolmenPiedra/images/nosotros/nosotros.jpg" 
+                   alt="Artesanos de Dolmen Piedra trabajando" 
+                   className="about-img"
+                 />
+               </div>
             </div>
           </div>
         </section>
@@ -386,7 +386,7 @@ export default function Home() {
       <footer className="footer">
         <div className="container">
           <div className="footer-logo font-serif">
-            <img src="/images/logo/logo.jpg" alt="Dolmen Piedra" />
+            <img src="/dolmenPiedra/images/logo/logo.jpg" alt="Dolmen Piedra" />
             Dolmen Piedra
           </div>
           <p>Transformando espacios con la belleza eterna de la piedra natural</p>
