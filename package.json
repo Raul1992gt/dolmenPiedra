@@ -1,0 +1,17 @@
+{
+  "name": "dolmen-piedra",
+  "version": "1.0.0",
+  "description": "Sitio web estático para Dolmen Piedra - Diseño y Esculturas en Piedra Natural",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export"
+  },
+  "dependencies": {
+    "next": "^15.3.3",
+    "react": "^18",
+    "react-dom": "^18"
+  }
+} 
